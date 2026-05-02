@@ -1,25 +1,25 @@
 Java Expense Tracker
 
-A console-based expense tracking application built in Java, demonstrating core OOP concepts.
+1.A console-based expense tracking application built in Java, demonstrating core OOP concepts.
 
-OOP Concepts Covered 
+2.OOP Concepts Covered 
 
-Inheritance Expense, Income extend abstract Transaction; RecurringExpense, OneTimeExpense extend Expense
+3.Inheritance Expense, Income extend abstract Transaction; RecurringExpense, OneTimeExpense extend Expense
 
-Polymorphism Overridden methods across the class hierarchy
+4.Polymorphism Overridden methods across the class hierarchy
 
-Abstraction  Abstract class Transaction with abstract methods
+5.Abstraction  Abstract class Transaction with abstract methods
 
-Interfaces  Categorizable, Printable, Exportable with default and static methods
+6.Interfaces  Categorizable, Printable, Exportable with default and static methods
 
-Encapsulation Private fields with getters/setters throughout
+7.Encapsulation Private fields with getters/setters throughout
 
-Generics  TransactionRepository<T> generic class
+8.Generics  TransactionRepository<T> generic class
 
-Inner/Nested Classes Budget.Alert, Budget.Tracker, TransactionRepository.QueryResult
+9.Inner/Nested Classes Budget.Alert, Budget.Tracker, TransactionRepository.QueryResult
 
-Anonymous Classes  Used for custom comparators
+10.Anonymous Classes  Used for custom comparators
 
-Custom Exceptions TrackerException hierarchy with InvalidAmountException, DuplicateTransactionException, CategoryNotFoundException
+11.Custom Exceptions TrackerException hierarchy with InvalidAmountException, DuplicateTransactionException, CategoryNotFoundException
 
-Static Members  Static fields and methods in multiple classes
+12.Static Members  Static fields and methods in multiple classes
